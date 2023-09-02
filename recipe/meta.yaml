@@ -1,5 +1,5 @@
 {% set name = "pyspeckle" %}
-{% set version = "0.4.1" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyspeckle-{{ version }}.tar.gz
-  sha256: 7cbed002a8729f776f093caf7171d074127220b4277fe4e665cbc1e65956bc76
+  sha256: 4b71b61200b717e81bd9d955eb86f99ff156cff6050e7c110d66e91cdb901992
 
 build:
   noarch: python
